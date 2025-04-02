@@ -1,14 +1,14 @@
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #a1b6c2;
     margin: 0;
     padding: 0;
 }
 
 /* Header section styling */
 header {
-    background: #333;
+    background: #0f8fd4;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -26,8 +26,8 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
-    color: white;
+    background: #0056b3;
+    color: lightgray;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -50,7 +50,7 @@ header nav button:hover {
 
 /* Card styling for individual team bios */
 .card {
-    background: white;
+    background: lightgray;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
