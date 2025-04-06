@@ -129,3 +129,86 @@ button:hover {
     border-radius: 10px;
     border: 2px solid #8a2be2;
 }
+
+.card.ricardo {
+  background-color: #2b2b2b; /* dark grey instead of black */
+  color: #ffffff; /* ensure all base text is white */
+  border: 1px solid #444;
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card.ricardo h2 {
+  border-bottom: 1px solid #555;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.card.ricardo p,
+.card.ricardo .bio p {
+  color: #ffffff; /* this targets ALL p tags inside .ricardo including the bio */
+  line-height: 1.6;
+}
+
+.bio {
+  display: none;
+  margin-top: 10px;
+}
+
+.bio.show {
+  display: block;
+  text-shadow: 0 0 3px #888;
+}
+
+/* Button Style */
+.card.ricardo button {
+  background-color: #444;
+  color: #ffffff;
+  border: 1px solid #666;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.card.ricardo button:hover {
+  background-color: #555;
+  color: #fff;
+  box-shadow: 0 0 4px #888;
+}
+
+/* Profile Image Styling */
+.profile-img {
+  width: 200px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 2px solid #444;
+}
+
+/* Moodboard Styling */
+.moodboard {
+  margin-top: 15px;
+}
+
+.moodboard h3 {
+  font-style: italic;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.moodboard-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.moodboard-images img {
+  width: 120px;
+  border-radius: 4px;
+}

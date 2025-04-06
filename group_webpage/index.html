@@ -41,12 +41,40 @@
         <button onclick="toggleBio('bio3')">Show Bio</button>
         <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
     </div>
-    <div class="card">
-        <h2>Ricardo Castro Sandchez</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio4')">Show Bio</button>
-        <p id="bio4" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+  <!-- Ricardo's Card -->
+<div class="card ricardo">
+    <h2>Ricardo Castro Sanchez</h2>
+    <p>Frontend Developer</p>
+    <button onclick="toggleBio('bio4')">Show Bio</button>
+
+    <div id="bio4" class="bio">
+        <img src="img/ric-pfp.jpg" alt="Ricardo profile" class="profile-img">
+        <p>Meet Ricardo — a Computer Science major with a focus in Software Engineering. With a mind wired for clean architecture
+        and pixel-perfect designs, Ricardo finds beauty in the logic behind every function and flow. He’s obsessed with crafting
+        user experiences that feel as good as they look.</p>
+
+        <p>When he’s not immersed in code, you’ll find him buried in low-light editor themes, exploring the limits of frameworks,
+        or dissecting systems just to rebuild them better. Ricardo doesn’t just write code — he engineers digital worlds.</p>
+
+        <div class="moodboard">
+            <h3>Moodboard</h3>
+            <div class="moodboard-images">
+                <img src="img/cs-meme-1.jpg" alt="CS Meme 1">
+                <img src="img/cs-2.jpg" alt="CS Meme 2">
+                <img src="img/cs-3.jpg" alt="CS Meme 3">
+            </div>
+        </div>
     </div>
+</div>
+
+<script>
+    function toggleBio(id) {
+        const bio = document.getElementById(id);
+        bio.classList.toggle('show');
+    }
+</script>
+
+
    <div class="card atiana-card">
     <h2>Atiana Tillery</h2>
     <p>Developer</p>
