@@ -88,3 +88,44 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+.atiana-card {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border: 2px dashed #ff69b4;
+    background-color: #fff0f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.atiana-card:hover {
+    box-shadow: 0 0 15px #ff69b4;
+    transform: scale(1.02);
+}
+
+.atiana-bio {
+    margin-top: 10px;
+}
+
+.bio-photo {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    border: 3px solid #ff69b4;
+    display: block;
+    margin: 10px auto;
+}
+
+.moodboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.moodboard-img {
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #8a2be2;
+}
